@@ -1,0 +1,106 @@
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(226,5,5,1) 77%, rgba(252,176,69,1) 100%);
+  color: #FFF; 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container{
+ margin: 5% auto;
+ width: 70%;
+}
+
+.ShowItems{
+	background-color: #FFF;
+	font-size: 22px;
+}
+
+.titles{
+	color: #660080;
+}
+
+
+.no-items{
+	margin: 0px;
+	padding: 5px;
+	background-color: #CCC;
+
+}
+
+.ShowItems span{
+	display: inline-block;
+	border: 1px solid #CCC;
+	padding: 5px;
+}
+
+.ShowItems span.title{
+	background-color: rgba(252,176,69,1);
+}
+
+.add-span span.name{
+	width: 75%;
+	color: rgba(131,58,180,1);
+}
+
+.add-span span.age{
+	width: 15%;
+	color: rgba(131,58,180,1);
+}
+
+.add-span span.action{
+	width: 10%;
+	color: #F00;
+	font-weight: 800;
+}
+
+.ShowItems span.name{
+	width: 75%;
+}
+
+.ShowItems span.age{
+	width: 15%;
+}
+
+.ShowItems span.action{
+	width: 10%;
+}
+
+.add-span span.action{
+	color: #F00;
+	cursor: pointer;
+}
+
+.form-style input{
+	background-color: rgba(131,58,180,1);
+	color:#FFF;
+	font-size: 22px;
+	padding: 5px;
+}
+
+.form-style input.form-name{
+	width: 65%;
+}
+
+.form-style input.form-age{
+	width: 15%;
+}
+
+.form-style input.form-action{
+	width: 15%;
+	cursor: pointer;
+}
